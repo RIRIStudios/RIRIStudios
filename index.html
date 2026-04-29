@@ -325,7 +325,7 @@
       <div class="subscribe-wrap">
         <p class="subscribe-label">Be first to know</p>
         <form class="subscribe-form" id="mc-form"
-              action="YOUR_MAILCHIMP_FORM_ACTION_URL"
+              action="https://riristudios.us19.list-manage.com/subscribe/post?u=8c95281fe0b94beac1fcf3803&id=481b2160c5&f_id=001a85e0f0"
               method="post" target="_blank"
               onsubmit="handleSubscribe(event)">
           <input type="email" name="EMAIL" placeholder="your@email.com" required autocomplete="email"/>
@@ -371,7 +371,7 @@ setInterval(updateCountdown, 1000);
 
 function handleSubscribe(e) {
   var action = document.getElementById('mc-form').getAttribute('action');
-  if (!action || action === 'YOUR_MAILCHIMP_FORM_ACTION_URL') {
+  if (!action || action === 'https://riristudios.us19.list-manage.com/subscribe/post?u=8c95281fe0b94beac1fcf3803&id=481b2160c5&f_id=001a85e0f0') {
     e.preventDefault();
     document.querySelector('.subscribe-form').style.display = 'none';
     document.getElementById('sub-success').style.display = 'block';
